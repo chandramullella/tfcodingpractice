@@ -11,3 +11,6 @@ resource "aws_instance" "my_instance" {
     Name = join("-", ["web", "app", count.index + 1])
   }
 }
+
+
+# Testing dummy changes
